@@ -1,6 +1,8 @@
 name: release-phar
 
-on: release
+on:
+  release:
+    types: [publish, prerelease]
 
 jobs:
   release-phar:
