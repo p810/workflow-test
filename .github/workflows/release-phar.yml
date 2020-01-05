@@ -15,6 +15,7 @@ jobs:
         with:
           php-version: '7.2'
           tools: composer
+          ini-values: phar.readonly=Off
       
       - name: Install dependencies
         run: composer install
